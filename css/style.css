@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 700; 800 & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root {
+    --primary-color:rgb(17,86, 102);
+    --primary-color-darker:rgb(9, 48, 56);
+}
+body {
+    background:var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.9em;
+    line-height:1.2em;
+    height:100vh;
+}
+.radioGroup {
+    max-width: 520px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;   
+}
+
+.mainDiv{
+    height:4em;
+    width:100%;
+    margin:10px 0 40px 0;
+    border:1px solid rgb(228, 222, 222);
+    display:flex;
+    align-items: center;
+}
+
+.mainDiv .radio{
+    width:2.1em;
+    height:2.1em;
+    border: 3px solid grey;
+    border-radius:50%;
+    margin: 0 .4em 0 .6em ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.radio .insideRadio{
+    position: relative;
+    padding:10px;
+    width:60%;
+    height:60%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
